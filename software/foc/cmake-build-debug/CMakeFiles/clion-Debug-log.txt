@@ -1,0 +1,5 @@
+"F:\Clion\installfile\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S F:\Desktop\ljyws\steer_node\software\foc -B F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: F:/Desktop/ljyws/steer_node/software/foc/cmake-build-debug

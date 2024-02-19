@@ -1,0 +1,3 @@
+F:/Desktop/ljyws/steer_node/software/foc/cmake-build-debug/CMakeFiles/foc.elf.dir
+F:/Desktop/ljyws/steer_node/software/foc/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Desktop/ljyws/steer_node/software/foc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
