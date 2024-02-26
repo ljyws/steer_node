@@ -42,6 +42,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "F:/Desktop/ljyws/steer_node/software/foc/Core/Src/dma.c" "CMakeFiles/foc.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Core/Src/dma.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Core/Src/gpio.c" "CMakeFiles/foc.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Core/Src/gpio.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Core/Src/main.c" "CMakeFiles/foc.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Core/Src/main.c.obj.d"
+  "F:/Desktop/ljyws/steer_node/software/foc/Core/Src/spi.c" "CMakeFiles/foc.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Core/Src/spi.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Core/Src/stm32g4xx_hal_msp.c" "CMakeFiles/foc.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Core/Src/stm32g4xx_hal_timebase_tim.c" "CMakeFiles/foc.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Core/Src/stm32g4xx_it.c" "CMakeFiles/foc.elf.dir/Core/Src/stm32g4xx_it.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Core/Src/stm32g4xx_it.c.obj.d"
@@ -62,6 +63,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj.d"
+  "F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj.d"
+  "F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c" "CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj" "gcc" "CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj.d"
@@ -78,7 +81,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "F:/Desktop/ljyws/steer_node/software/foc/App/board.cpp" "CMakeFiles/foc.elf.dir/App/board.cpp.obj" "gcc" "CMakeFiles/foc.elf.dir/App/board.cpp.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Ctrl/encoder.cpp" "CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj" "gcc" "CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Ctrl/foc.cpp" "CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj" "gcc" "CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj.d"
+  "F:/Desktop/ljyws/steer_node/software/foc/Ctrl/motor.cpp" "CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj" "gcc" "CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj.d"
   "F:/Desktop/ljyws/steer_node/software/foc/Ctrl/rgb.cpp" "CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj" "gcc" "CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj.d"
+  "F:/Desktop/ljyws/steer_node/software/foc/Ctrl/utils.cpp" "CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj" "gcc" "CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -34,6 +34,8 @@ CMakeFiles/foc.elf.dir/Core/Src/main.c.obj: \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_flash_ramfunc.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_pwr.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_pwr_ex.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_spi.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_spi_ex.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h \
  F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os.h \
@@ -58,5 +60,6 @@ CMakeFiles/foc.elf.dir/Core/Src/main.c.obj: \
  F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os2.h \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/dma.h \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/main.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/spi.h \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/tim.h \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/gpio.h

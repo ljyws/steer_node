@@ -1,6 +1,55 @@
 #include <cmath>
 #include "foc.h"
 
+Motor::Error AlphaBetaFrameController::on_measurement(float vbus, Iph_ABC_t *currents)
+{
+    alpha_beta_t Ialpha_beta;
+    Ialpha_beta.alpha = currents->phA;
+    Ialpha_beta.beta  = one_by_sqrt3 * (currents->phB - currents->phC);
+
+    return on_measurement(vbus, &Ialpha_beta);
+}
+
+Motor::Error AlphaBetaFrameController::get_output(Iph_ABC_t *pwm_timings, float *ibus)
+{
+    alpha_beta_t mod_alpha_beta;
+    Motor::Error status = get_alpha_beta_output(&mod_alpha_beta,ibus);
+    if(status != Motor::ERROR_NONE)
+    {
+        return status;
+    }
+    Iph_ABC_t _ph;
+    bool success = SVM(mod_alpha_beta.alpha,mod_alpha_beta.beta,&_ph);
+    if(!success)
+        return Motor::ERROR_MODULATION_MAGNITUDE;
+    pwm_timings->phA = _ph.phA;
+    pwm_timings->phB = _ph.phB;
+    pwm_timings->phC = _ph.phC;
+
+    return Motor::ERROR_NONE;
+}
+
+Motor::Error FieldOrientedController::on_measurement(float vbus, alpha_beta_t *Ialpha_beta)
+{
+    vbus_voltage_measured_ = vbus;
+    Ialpha_beta_measured_ = *Ialpha_beta;
+    return Motor::ERROR_NONE;
+}
+
+Motor::Error FieldOrientedController::get_alpha_beta_output(alpha_beta_t *mod_alpha_beta, float *ibus)
+{
+    if(*vbus_voltage_measured_ == 0.0f || Ialpha_beta_measured_.alpha == 0.0f || Ialpha_beta_measured_.beta == 0.0f)
+        return Motor::ERROR_CONTROLLER_INITIALIZING;
+    d_q_t V_d_q = *Vdq_setpoint_;
+    float phase = *phase_;
+    float phase_vel = *phase_vel_;
+    float vbus_voltage = *vbus_voltage_measured_;
+
+    d_q_t *Idq;
+    alpha_beta_t Ialphe_beta = *Ialpha_beta_measured_;
+    float I_phase = p
+}
+
 void FieldOrientedController::update()
 {
     sin_cos_val();

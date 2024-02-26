@@ -32,7 +32,12 @@ CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj: \
  F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
  F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os2.h \
  F:\Desktop\ljyws\steer_node\software\foc\Ctrl/rgb.h \
- F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/tim.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl/encoder.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\cstdint \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\arm-none-eabi\thumb\v7e-m\fpv4-sp\hard\bits\c++config.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\arm-none-eabi\thumb\v7e-m\fpv4-sp\hard\bits\os_defines.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\arm-none-eabi\thumb\v7e-m\fpv4-sp\hard\bits\cpu_defines.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/spi.h \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/main.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal.h \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/stm32g4xx_hal_conf.h \
@@ -59,5 +64,48 @@ CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj: \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_flash_ramfunc.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_pwr.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_pwr_ex.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_spi.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_spi_ex.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim.h \
- F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h
+ F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\cmath \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\cpp_type_traits.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\ext\type_traits.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\math.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\sys\cdefs.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\_ansi.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\std_abs.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\stdlib.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\machine\stdlib.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\alloca.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\specfun.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\stl_algobase.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\functexcept.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\exception_defines.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\ext\numeric_traits.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\stl_pair.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\move.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\concept_check.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\type_traits \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\stl_iterator_base_types.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\stl_iterator_base_funcs.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\debug\assertions.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\stl_iterator.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\ptr_traits.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\debug\debug.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\bits\predefined_ops.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\limits \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\gamma.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\special_function_util.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\bessel_function.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\special_function_util.h \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\beta_function.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\ell_integral.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\exp_integral.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\hypergeometric.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\legendre_function.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\modified_bessel_func.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\poly_hermite.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\poly_laguerre.tcc \
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\riemann_zeta.tcc \
+ F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/tim.h

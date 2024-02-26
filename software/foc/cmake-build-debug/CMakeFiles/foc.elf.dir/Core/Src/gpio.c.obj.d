@@ -35,5 +35,7 @@ CMakeFiles/foc.elf.dir/Core/Src/gpio.c.obj: \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_flash_ramfunc.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_pwr.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_pwr_ex.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_spi.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_spi_ex.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal_tim_ex.h

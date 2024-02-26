@@ -139,6 +139,9 @@
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/main.h">
 			<Option target="foc.elf"/>
 		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/spi.h">
+			<Option target="foc.elf"/>
+		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/stm32g4xx_hal_conf.h">
 			<Option target="foc.elf"/>
 		</Unit>
@@ -158,6 +161,9 @@
 			<Option target="foc.elf"/>
 		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Core/Src/main.c">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Core/Src/spi.c">
 			<Option target="foc.elf"/>
 		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Core/Src/stm32g4xx_hal_msp.c">
@@ -196,10 +202,25 @@
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/foc.h">
 			<Option target="foc.elf"/>
 		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/motor.cpp">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/motor.h">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/phase_control_law.h">
+			<Option target="foc.elf"/>
+		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/rgb.cpp">
 			<Option target="foc.elf"/>
 		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/rgb.h">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/utils.cpp">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/utils.h">
 			<Option target="foc.elf"/>
 		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h">
@@ -337,6 +358,12 @@
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h">
 			<Option target="foc.elf"/>
 		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h">
+			<Option target="foc.elf"/>
+		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h">
 			<Option target="foc.elf"/>
 		</Unit>
@@ -419,6 +446,12 @@
 			<Option target="foc.elf"/>
 		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c">
 			<Option target="foc.elf"/>
 		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c">

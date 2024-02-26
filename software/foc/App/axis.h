@@ -3,8 +3,9 @@
 
 #include "main_help.h"
 #include "rgb.h"
-
+#include "encoder.h"
 class RGB;
+class Encoder;
 
 class Axis
 {
@@ -16,10 +17,12 @@ public:
         Axis *parent = nullptr;
     };
 
-    Axis(RGB &rgb);
+    Axis(RGB &rgb,
+         Encoder& encoder);
 
 
-    RGB& rgb_;
+    RGB &rgb_;
+    Encoder& encoder_;
     void start_thread();
 
 

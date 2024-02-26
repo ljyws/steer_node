@@ -1,7 +1,11 @@
 #include "axis.h"
 #include "board.h"
 
-Axis::Axis(RGB &rgb) : rgb_(rgb)
+Axis::Axis(RGB &rgb,
+           Encoder& encoder)
+           : rgb_(rgb),
+             encoder_(encoder)
+
 {
     rgb.axis_ = this;
 }

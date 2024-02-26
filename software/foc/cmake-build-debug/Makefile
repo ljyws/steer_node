@@ -272,6 +272,30 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/spi.obj: Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.obj
+
+# target to build an object file
+Core/Src/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.c.obj
+
+Core/Src/spi.i: Core/Src/spi.c.i
+.PHONY : Core/Src/spi.i
+
+# target to preprocess a source file
+Core/Src/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Core/Src/spi.c.i
+.PHONY : Core/Src/spi.c.i
+
+Core/Src/spi.s: Core/Src/spi.c.s
+.PHONY : Core/Src/spi.s
+
+# target to generate assembly for a file
+Core/Src/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Core/Src/spi.c.s
+.PHONY : Core/Src/spi.c.s
+
 Core/Src/stm32g4xx_hal_msp.obj: Core/Src/stm32g4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32g4xx_hal_msp.obj
 
@@ -496,6 +520,30 @@ Ctrl/foc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.s
 .PHONY : Ctrl/foc.cpp.s
 
+Ctrl/motor.obj: Ctrl/motor.cpp.obj
+.PHONY : Ctrl/motor.obj
+
+# target to build an object file
+Ctrl/motor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj
+.PHONY : Ctrl/motor.cpp.obj
+
+Ctrl/motor.i: Ctrl/motor.cpp.i
+.PHONY : Ctrl/motor.i
+
+# target to preprocess a source file
+Ctrl/motor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.i
+.PHONY : Ctrl/motor.cpp.i
+
+Ctrl/motor.s: Ctrl/motor.cpp.s
+.PHONY : Ctrl/motor.s
+
+# target to generate assembly for a file
+Ctrl/motor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.s
+.PHONY : Ctrl/motor.cpp.s
+
 Ctrl/rgb.obj: Ctrl/rgb.cpp.obj
 .PHONY : Ctrl/rgb.obj
 
@@ -519,6 +567,30 @@ Ctrl/rgb.s: Ctrl/rgb.cpp.s
 Ctrl/rgb.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.s
 .PHONY : Ctrl/rgb.cpp.s
+
+Ctrl/utils.obj: Ctrl/utils.cpp.obj
+.PHONY : Ctrl/utils.obj
+
+# target to build an object file
+Ctrl/utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj
+.PHONY : Ctrl/utils.cpp.obj
+
+Ctrl/utils.i: Ctrl/utils.cpp.i
+.PHONY : Ctrl/utils.i
+
+# target to preprocess a source file
+Ctrl/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.i
+.PHONY : Ctrl/utils.cpp.i
+
+Ctrl/utils.s: Ctrl/utils.cpp.s
+.PHONY : Ctrl/utils.s
+
+# target to generate assembly for a file
+Ctrl/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.s
+.PHONY : Ctrl/utils.cpp.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
@@ -831,6 +903,54 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.s: Drivers/STM32G4xx_HAL_D
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.s
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.obj
+
+# target to build an object file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.i: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.i
+
+# target to preprocess a source file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.i
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.i
+
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.s: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.s
+.PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.s
 
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.obj: Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
 .PHONY : Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.obj
@@ -1147,6 +1267,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/spi.obj
+	@echo ... Core/Src/spi.i
+	@echo ... Core/Src/spi.s
 	@echo ... Core/Src/stm32g4xx_hal_msp.obj
 	@echo ... Core/Src/stm32g4xx_hal_msp.i
 	@echo ... Core/Src/stm32g4xx_hal_msp.s
@@ -1175,9 +1298,15 @@ help:
 	@echo ... Ctrl/foc.obj
 	@echo ... Ctrl/foc.i
 	@echo ... Ctrl/foc.s
+	@echo ... Ctrl/motor.obj
+	@echo ... Ctrl/motor.i
+	@echo ... Ctrl/motor.s
 	@echo ... Ctrl/rgb.obj
 	@echo ... Ctrl/rgb.i
 	@echo ... Ctrl/rgb.s
+	@echo ... Ctrl/utils.obj
+	@echo ... Ctrl/utils.i
+	@echo ... Ctrl/utils.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s
@@ -1217,6 +1346,12 @@ help:
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.s
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.obj
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.i
+	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.s
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.obj
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.i
 	@echo ... Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.s

@@ -65,6 +65,14 @@ void Error_Handler(void);
 #define LED3_GPIO_Port GPIOC
 #define RGB_Pin GPIO_PIN_5
 #define RGB_GPIO_Port GPIOA
+#define ENC_SPI_CS_Pin GPIO_PIN_15
+#define ENC_SPI_CS_GPIO_Port GPIOA
+#define ENC_SPI_SCK_Pin GPIO_PIN_3
+#define ENC_SPI_SCK_GPIO_Port GPIOB
+#define ENC_SPI_MISO_Pin GPIO_PIN_4
+#define ENC_SPI_MISO_GPIO_Port GPIOB
+#define ENC_SPI_MOSI_Pin GPIO_PIN_5
+#define ENC_SPI_MOSI_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
