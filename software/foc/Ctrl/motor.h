@@ -2,16 +2,14 @@
 #define __MOTOR_H__
 
 #include "axis.h"
-#include "foc.h"
 
-typedef struct {float alpha; float beta; }alpha_beta_t;
-typedef struct {float d; float q; }d_q_t;
-typedef struct { float phA; float phB; float phC; }Iph_ABC_t;
+struct alpha_beta_t{float alpha; float beta; };
+struct d_q_t{float d; float q; };
+struct Iph_ABC_t{ float phA; float phB; float phC; };
 
-
+class Motor;
 class Axis;
 class FieldOrientedController;
-class Motor;
 
 class Motor
 {
@@ -28,6 +26,8 @@ public:
         Motor *parent = nullptr;
     }Config_t;
 
+
+    Motor();
     bool init();
     bool measure_phase_resistance();
     bool measure_phase_inductance();
@@ -43,7 +43,8 @@ public:
     Iph_ABC_t current_meas_;
     Iph_ABC_t DC_calib_;
     float I_bus_ = 0.0f;
-    FieldOrientedController foc;
+
+    FieldOrientedController *foc;
 
     enum Error {
         ERROR_NONE                       = 0x00000000,
@@ -75,6 +76,7 @@ public:
         ERROR_CONTROLLER_INITIALIZING    = 0x400000000,
         ERROR_UNBALANCED_PHASES          = 0x800000000,
     };
+    Error error = ERROR_NONE;
 };
 
 #endif

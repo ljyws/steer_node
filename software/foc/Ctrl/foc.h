@@ -4,12 +4,6 @@
 #include "phase_control_law.h"
 #include "utils.h"
 
-#define SQRT3 					(1.73205080757f)
-#define SQRT3_BY_2				(0.86602540378f)
-#define ONE_BY_SQRT3			(0.57735026919f)
-#define TWO_BY_SQRT3			(1.15470053838f)
-
-
 
 class FieldOrientedController : public AlphaBetaFrameController
 {
@@ -19,14 +13,6 @@ public:
 
     Motor::Error get_alpha_beta_output(alpha_beta_t *mod_alpha_beta, float *ibus)final;
 
-    void config(void);
-    void update(void);
-    void sin_cos_val();
-    void clarke_transform(void);
-    void inverse_clarke();
-    void park_transform();
-    void inverse_park();
-    void svpwm_sector();
 
     float theta;
     float sin_val;
@@ -50,10 +36,20 @@ public:
     float *vbus_voltage_measured_;
     alpha_beta_t *Ialpha_beta_measured_;
 
+    float I_measured_report_filter_k_ = 1.0f;
+
     d_q_t *Idq_setpoint_;
     d_q_t *Vdq_setpoint_;
     float *phase_;
     float *phase_vel_;
+
+    float Id_measured_; // [A]
+    float Iq_measured_; // [A]
+
+    float final_v_alpha_ = 0.0f; // [V]
+    float final_v_beta_ = 0.0f; // [V]
+
+    float power_ = 0.0f;
 };
 
 

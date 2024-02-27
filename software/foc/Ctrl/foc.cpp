@@ -31,154 +31,53 @@ Motor::Error AlphaBetaFrameController::get_output(Iph_ABC_t *pwm_timings, float 
 
 Motor::Error FieldOrientedController::on_measurement(float vbus, alpha_beta_t *Ialpha_beta)
 {
-    vbus_voltage_measured_ = vbus;
-    Ialpha_beta_measured_ = *Ialpha_beta;
+    vbus_voltage_measured_ = &vbus;
+    Ialpha_beta_measured_ = Ialpha_beta;
     return Motor::ERROR_NONE;
 }
 
 Motor::Error FieldOrientedController::get_alpha_beta_output(alpha_beta_t *mod_alpha_beta, float *ibus)
 {
-    if(*vbus_voltage_measured_ == 0.0f || Ialpha_beta_measured_.alpha == 0.0f || Ialpha_beta_measured_.beta == 0.0f)
-        return Motor::ERROR_CONTROLLER_INITIALIZING;
-    d_q_t V_d_q = *Vdq_setpoint_;
+    auto [Vd, Vq] = *Vdq_setpoint_;
     float phase = *phase_;
     float phase_vel = *phase_vel_;
     float vbus_voltage = *vbus_voltage_measured_;
 
     d_q_t *Idq;
-    alpha_beta_t Ialphe_beta = *Ialpha_beta_measured_;
-    float I_phase = p
-}
 
-void FieldOrientedController::update()
-{
-    sin_cos_val();
-    clarke_transform();
-    park_transform();
-    inverse_park();
-    svpwm_sector();
-}
+    auto [Ialpha, Ibeta] = *Ialpha_beta_measured_;
+    float I_phase;
+    float c_I = cosf(I_phase);
+    float s_I = sinf(I_phase);
 
-void FieldOrientedController::sin_cos_val()
-{
-    sin_val = sinf(theta);
-    cos_val = cosf(theta);
-}
+    Idq->d = c_I * Ialpha + s_I * Ibeta;
+    Idq->q = c_I * Ibeta - s_I * Ialpha;
 
-void FieldOrientedController::clarke_transform()
-{
-    I_alpha_beta[0] = iph_i.phA;
-    I_alpha_beta[1] = (iph_i.phB - iph_i.phC) *  ONE_BY_SQRT3;
-}
+    Id_measured_ += I_measured_report_filter_k_ * (Idq->d - Id_measured_);
+    Iq_measured_ += I_measured_report_filter_k_ * (Idq->q - Iq_measured_);
 
-void FieldOrientedController::inverse_clarke()
-{
-    iph_v.phA = V_alpha_beta[0];
-    iph_v.phB = -0.5f * V_alpha_beta[0] + SQRT3_BY_2 * V_alpha_beta[1];
-    iph_v.phC = -0.5f * V_alpha_beta[0] - SQRT3_BY_2 * V_alpha_beta[1];
-}
+    float mod_to_V = (2.0f / 3.0f) * vbus_voltage;
+    float V_to_mod = 1.0f / mod_to_V;
+    float mod_d;
+    float mod_q;
 
-void FieldOrientedController::park_transform()
-{
-    I_dq[0] = I_alpha_beta[0] * cos_val + I_alpha_beta[1] * sin_val;
-    I_dq[1] = I_alpha_beta[1] * cos_val - I_alpha_beta[0] * sin_val;
-}
+//    if(enable_current_control)
 
-void FieldOrientedController::inverse_park()
-{
-    V_alpha_beta[0] = (V_dq[0] * cos_val - V_dq[1] * sin_val);
-    V_alpha_beta[1] = (V_dq[0] * sin_val + V_dq[1] * cos_val);
-}
-void FieldOrientedController::svpwm_sector()
-{
-    float TS = 1.0f;
-    float ta = 0.0f, tb = 0.0f, tc = 0.0f;
+    float pwm_phase;
+    float c_p = cosf(pwm_phase);
+    float s_p = sinf(pwm_phase);
+    float mod_alpha = c_p * mod_d - s_p * mod_q;
+    float mod_beta = c_p * mod_q + s_p * mod_d;
 
-    float k = (TS * SQRT3) * inv_vbus;
+    final_v_alpha_ = mod_to_V * mod_alpha;
+    final_v_beta_ = mod_to_V * mod_beta;
 
-    float va = V_alpha_beta[1];
-    float vb = (SQRT3  * V_alpha_beta[0] - V_alpha_beta[1]) * 0.5f;
-    float vc = (-SQRT3 * V_alpha_beta[0] - V_alpha_beta[1]) * 0.5f;
+    *mod_alpha_beta = {mod_alpha, mod_beta};
 
-    int a = (va > 0.0f) ? 1 : 0;
-    int b = (vb > 0.0f) ? 1 : 0;
-    int c = (vc > 0.0f) ? 1 : 0;
+    auto [Id, Iq] = *Idq;
+    *ibus = mod_d * Id + mod_q * Iq;
+    power_ = vbus_voltage * (*ibus);
 
-    int sextant = (c << 2) + (b << 1) + a;
-
-    switch(sextant)
-    {
-        case 3:
-        {
-            float t4 = k * vb;
-            float t6 = k * va;
-            float t0 = (TS - t4 - t6) * 0.5f;
-
-            ta = t4 + t6 + t0;
-            tb = t6 + t0;
-            tc = t0;
-        }break;
-
-        case 1:
-        {
-            float t6 = -k * vc;
-            float t2 = -k * vb;
-            float t0 = (TS - t2 - t6) * 0.5f;
-
-            ta = t6 + t0;
-            tb = t2 + t6 + t0;
-            tc = t0;
-        }break;
-
-        case 5:
-        {
-            float t2 = k * va;
-            float t3 = k * vc;
-            float t0 = (TS - t2 - t3) * 0.5f;
-
-            ta = t0;
-            tb = t2 + t3 + t0;
-            tc = t3 + t0;
-        }break;
-
-        case 4:
-        {
-            float t1 = -k * va;
-            float t3 = -k * vb;
-            float t0 = (TS - t1 - t3) * 0.5f;
-
-            ta = t0;
-            tb = t3 + t0;
-            tc = t1 + t3 + t0;
-        }break;
-
-        case 6:
-        {
-            float t1 = k * vc;
-            float t5 = k * vb;
-            float t0 = (TS - t1 - t5) * 0.5f;
-
-            ta = t5 + t0;
-            tb = t0;
-            tc = t1 + t5 + t0;
-        }break;
-
-        case 2:
-        {
-            float t4 = -k * vc;
-            float t5 = -k * va;
-            float t0 = (TS - t4 - t5) * 0.5f;
-
-            ta = t4 + t5 + t0;
-            tb = t0;
-            tc = t5 + t0;
-        }break;
-
-        default:
-            break;
-        }
-        pwm_out.phA = 1.0f-ta;
-        pwm_out.phB = 1.0f-tb;
-        pwm_out.phC = 1.0f-tc;
+    return Motor::ERROR_NONE;
 
 }

@@ -1,5 +1,8 @@
-CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj: \
- F:\Desktop\ljyws\steer_node\software\foc\Ctrl\motor.cpp \
+CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj: \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl\utils.cpp \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl\utils.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl\foc.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl\phase_control_law.h \
  F:\Desktop\ljyws\steer_node\software\foc\Ctrl\motor.h \
  F:\Desktop\ljyws\steer_node\software\foc\App/axis.h \
  F:\Desktop\ljyws\steer_node\software\foc\App/main_help.h \
@@ -108,7 +111,4 @@ CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj: \
  f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\modified_bessel_func.tcc \
  f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\poly_hermite.tcc \
  f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\poly_laguerre.tcc \
- f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\riemann_zeta.tcc \
- F:\Desktop\ljyws\steer_node\software\foc\Ctrl\foc.h \
- F:\Desktop\ljyws\steer_node\software\foc\Ctrl\phase_control_law.h \
- F:\Desktop\ljyws\steer_node\software\foc\Ctrl\utils.h
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\riemann_zeta.tcc

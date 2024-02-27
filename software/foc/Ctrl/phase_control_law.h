@@ -5,7 +5,6 @@
 
 class Motor;
 
-
 class PhaseControlLaw
 {
 public:
@@ -13,7 +12,7 @@ public:
 
     virtual Motor::Error on_measurement(float vbus, Iph_ABC_t *currents) = 0;
 
-    virtual Motor::Error get_output(Iph_ABC_t (&pwm_timings), float ibus) = 0;
+    virtual Motor::Error get_output(Iph_ABC_t *pwm_timings, float *ibus) = 0;
 };
 
 class AlphaBetaFrameController : public PhaseControlLaw
