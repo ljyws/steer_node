@@ -111,7 +111,8 @@ CMakeFiles/foc.elf.dir/App/axis.cpp.obj: F:/Desktop/ljyws/steer_node/software/fo
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_hermite.tcc \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_laguerre.tcc \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/riemann_zeta.tcc \
-  F:/Desktop/ljyws/steer_node/software/foc/App/board.h
+  F:/Desktop/ljyws/steer_node/software/foc/App/board.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.h
 
 CMakeFiles/foc.elf.dir/App/board.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/App/board.cpp \
   F:/Desktop/ljyws/steer_node/software/foc/App/board.h \
@@ -222,7 +223,8 @@ CMakeFiles/foc.elf.dir/App/board.cpp.obj: F:/Desktop/ljyws/steer_node/software/f
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_hermite.tcc \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_laguerre.tcc \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/riemann_zeta.tcc \
-  F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/tim.h
+  F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/tim.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.h
 
 CMakeFiles/foc.elf.dir/Core/Src/app_freertos.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Core/Src/app_freertos.c \
   F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
@@ -737,6 +739,117 @@ CMakeFiles/foc.elf.dir/Core/Src/tim.c.obj: F:/Desktop/ljyws/steer_node/software/
   F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
   F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
+CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.cpp \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.h \
+  F:/Desktop/ljyws/steer_node/software/foc/App/axis.h \
+  F:/Desktop/ljyws/steer_node/software/foc/App/main_help.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/stdint.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/machine/_default_types.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/sys/features.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/_newlib_version.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/sys/_intsup.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/sys/_stdint.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/FreeRTOSConfig.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/reent.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/sys/reent.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/_ansi.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/newlib.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/sys/config.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/machine/ieeefp.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/sys/_types.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/machine/_types.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/sys/lock.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/rgb.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/tim.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/main.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/stm32g4xx_hal_conf.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Include/core_cm4.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Include/cmsis_version.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Include/cmsis_compiler.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Include/cmsis_gcc.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Include/mpu_armv7.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/encoder.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/cstdint \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard/bits/c++config.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard/bits/os_defines.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard/bits/cpu_defines.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/spi.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/cmath \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/cpp_type_traits.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/ext/type_traits.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/math.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/sys/cdefs.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/_ansi.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/std_abs.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/stdlib.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/machine/stdlib.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/alloca.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/specfun.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/stl_algobase.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/functexcept.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/exception_defines.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/ext/numeric_traits.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/stl_pair.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/move.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/concept_check.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/type_traits \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/stl_iterator_base_types.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/stl_iterator_base_funcs.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/debug/assertions.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/stl_iterator.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/ptr_traits.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/debug/debug.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/bits/predefined_ops.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/limits \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/gamma.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/special_function_util.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/bessel_function.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/special_function_util.h \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/beta_function.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/ell_integral.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/exp_integral.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/hypergeometric.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/legendre_function.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/modified_bessel_func.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_hermite.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_laguerre.tcc \
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/riemann_zeta.tcc
+
 CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/encoder.cpp \
   F:/Desktop/ljyws/steer_node/software/foc/Ctrl/encoder.h \
   F:/Desktop/ljyws/steer_node/software/foc/App/axis.h \
@@ -960,7 +1073,13 @@ CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj: F:/Desktop/ljyws/steer_node/software/fo
   F:/Desktop/ljyws/steer_node/software/foc/Ctrl/encoder.h \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/cstdint \
   F:/Desktop/ljyws/steer_node/software/foc/Core/Inc/spi.h \
+  F:/Desktop/ljyws/steer_node/software/foc/App/board.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.h \
   F:/Desktop/ljyws/steer_node/software/foc/Ctrl/utils.h
+
+CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.cpp \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.h
 
 CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/motor.cpp \
   F:/Desktop/ljyws/steer_node/software/foc/Ctrl/motor.h \
@@ -1071,7 +1190,13 @@ CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj: F:/Desktop/ljyws/steer_node/software/
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/modified_bessel_func.tcc \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_hermite.tcc \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_laguerre.tcc \
-  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/riemann_zeta.tcc
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/riemann_zeta.tcc \
+  F:/Desktop/ljyws/steer_node/software/foc/App/board.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/foc.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/phase_control_law.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/utils.h
 
 CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/rgb.cpp \
   F:/Desktop/ljyws/steer_node/software/foc/Ctrl/rgb.h \
@@ -1296,7 +1421,10 @@ CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj: F:/Desktop/ljyws/steer_node/software/
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/modified_bessel_func.tcc \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_hermite.tcc \
   F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/poly_laguerre.tcc \
-  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/riemann_zeta.tcc
+  F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/c++/7.3.1/tr1/riemann_zeta.tcc \
+  F:/Desktop/ljyws/steer_node/software/foc/App/board.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.h \
+  F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.h
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c \
   F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -2345,6 +2473,8 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: F:/
 
 F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/arm-none-eabi/include/stdint.h:
 
+F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.h:
+
 F:/Desktop/ljyws/steer_node/software/foc/App/axis.cpp:
 
 F:/Desktop/ljyws/steer_node/software/foc/App/axis.h:
@@ -2376,6 +2506,8 @@ F:/Desktop/ljyws/steer_node/software/foc/Drivers/CMSIS/Include/cmsis_gcc.h:
 F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
 
 F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h:
+
+F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.cpp:
 
 F:/Tools/gcc-arm-none-eabi-7-2018-q2-update-win32/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h:
 
@@ -2665,6 +2797,8 @@ F:/Desktop/ljyws/steer_node/software/foc/Core/Src/system_stm32g4xx.c:
 
 F:/Desktop/ljyws/steer_node/software/foc/Core/Src/tim.c:
 
+F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.cpp:
+
 F:/Desktop/ljyws/steer_node/software/foc/Ctrl/encoder.cpp:
 
 F:/Desktop/ljyws/steer_node/software/foc/Ctrl/foc.cpp:
@@ -2674,6 +2808,8 @@ F:/Desktop/ljyws/steer_node/software/foc/Ctrl/foc.h:
 F:/Desktop/ljyws/steer_node/software/foc/Ctrl/phase_control_law.h:
 
 F:/Desktop/ljyws/steer_node/software/foc/Ctrl/motor.h:
+
+F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.h:
 
 F:/Desktop/ljyws/steer_node/software/foc/Ctrl/utils.h:
 

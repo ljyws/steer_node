@@ -472,6 +472,30 @@ Core/Startup/startup_stm32g431cbtx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj
 .PHONY : Core/Startup/startup_stm32g431cbtx.s.obj
 
+Ctrl/controller.obj: Ctrl/controller.cpp.obj
+.PHONY : Ctrl/controller.obj
+
+# target to build an object file
+Ctrl/controller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj
+.PHONY : Ctrl/controller.cpp.obj
+
+Ctrl/controller.i: Ctrl/controller.cpp.i
+.PHONY : Ctrl/controller.i
+
+# target to preprocess a source file
+Ctrl/controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.i
+.PHONY : Ctrl/controller.cpp.i
+
+Ctrl/controller.s: Ctrl/controller.cpp.s
+.PHONY : Ctrl/controller.s
+
+# target to generate assembly for a file
+Ctrl/controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.s
+.PHONY : Ctrl/controller.cpp.s
+
 Ctrl/encoder.obj: Ctrl/encoder.cpp.obj
 .PHONY : Ctrl/encoder.obj
 
@@ -519,6 +543,30 @@ Ctrl/foc.s: Ctrl/foc.cpp.s
 Ctrl/foc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.s
 .PHONY : Ctrl/foc.cpp.s
+
+Ctrl/low_level.obj: Ctrl/low_level.cpp.obj
+.PHONY : Ctrl/low_level.obj
+
+# target to build an object file
+Ctrl/low_level.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj
+.PHONY : Ctrl/low_level.cpp.obj
+
+Ctrl/low_level.i: Ctrl/low_level.cpp.i
+.PHONY : Ctrl/low_level.i
+
+# target to preprocess a source file
+Ctrl/low_level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.i
+.PHONY : Ctrl/low_level.cpp.i
+
+Ctrl/low_level.s: Ctrl/low_level.cpp.s
+.PHONY : Ctrl/low_level.s
+
+# target to generate assembly for a file
+Ctrl/low_level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\foc.elf.dir\build.make CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.s
+.PHONY : Ctrl/low_level.cpp.s
 
 Ctrl/motor.obj: Ctrl/motor.cpp.obj
 .PHONY : Ctrl/motor.obj
@@ -1292,12 +1340,18 @@ help:
 	@echo ... Core/Src/tim.i
 	@echo ... Core/Src/tim.s
 	@echo ... Core/Startup/startup_stm32g431cbtx.obj
+	@echo ... Ctrl/controller.obj
+	@echo ... Ctrl/controller.i
+	@echo ... Ctrl/controller.s
 	@echo ... Ctrl/encoder.obj
 	@echo ... Ctrl/encoder.i
 	@echo ... Ctrl/encoder.s
 	@echo ... Ctrl/foc.obj
 	@echo ... Ctrl/foc.i
 	@echo ... Ctrl/foc.s
+	@echo ... Ctrl/low_level.obj
+	@echo ... Ctrl/low_level.i
+	@echo ... Ctrl/low_level.s
 	@echo ... Ctrl/motor.obj
 	@echo ... Ctrl/motor.i
 	@echo ... Ctrl/motor.s

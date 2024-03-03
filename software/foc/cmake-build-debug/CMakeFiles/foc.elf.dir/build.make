@@ -277,10 +277,24 @@ CMakeFiles/foc.elf.dir/Core/Startup/startup_stm32g431cbtx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/foc.elf.dir/Core/Startup/startup_stm32g431cbtx.s.s"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S F:\Desktop\ljyws\steer_node\software\foc\Core\Startup\startup_stm32g431cbtx.s -o CMakeFiles\foc.elf.dir\Core\Startup\startup_stm32g431cbtx.s.s
 
+CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj: CMakeFiles/foc.elf.dir/flags.make
+CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.cpp
+CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj"
+	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj -MF CMakeFiles\foc.elf.dir\Ctrl\controller.cpp.obj.d -o CMakeFiles\foc.elf.dir\Ctrl\controller.cpp.obj -c F:\Desktop\ljyws\steer_node\software\foc\Ctrl\controller.cpp
+
+CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.i"
+	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Desktop\ljyws\steer_node\software\foc\Ctrl\controller.cpp > CMakeFiles\foc.elf.dir\Ctrl\controller.cpp.i
+
+CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.s"
+	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Desktop\ljyws\steer_node\software\foc\Ctrl\controller.cpp -o CMakeFiles\foc.elf.dir\Ctrl\controller.cpp.s
+
 CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/encoder.cpp
 CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj -MF CMakeFiles\foc.elf.dir\Ctrl\encoder.cpp.obj.d -o CMakeFiles\foc.elf.dir\Ctrl\encoder.cpp.obj -c F:\Desktop\ljyws\steer_node\software\foc\Ctrl\encoder.cpp
 
 CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.s: cmake_force
 CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/foc.cpp
 CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj -MF CMakeFiles\foc.elf.dir\Ctrl\foc.cpp.obj.d -o CMakeFiles\foc.elf.dir\Ctrl\foc.cpp.obj -c F:\Desktop\ljyws\steer_node\software\foc\Ctrl\foc.cpp
 
 CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.i: cmake_force
@@ -305,10 +319,24 @@ CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.s"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Desktop\ljyws\steer_node\software\foc\Ctrl\foc.cpp -o CMakeFiles\foc.elf.dir\Ctrl\foc.cpp.s
 
+CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj: CMakeFiles/foc.elf.dir/flags.make
+CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.cpp
+CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj"
+	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj -MF CMakeFiles\foc.elf.dir\Ctrl\low_level.cpp.obj.d -o CMakeFiles\foc.elf.dir\Ctrl\low_level.cpp.obj -c F:\Desktop\ljyws\steer_node\software\foc\Ctrl\low_level.cpp
+
+CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.i"
+	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Desktop\ljyws\steer_node\software\foc\Ctrl\low_level.cpp > CMakeFiles\foc.elf.dir\Ctrl\low_level.cpp.i
+
+CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.s"
+	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Desktop\ljyws\steer_node\software\foc\Ctrl\low_level.cpp -o CMakeFiles\foc.elf.dir\Ctrl\low_level.cpp.s
+
 CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/motor.cpp
 CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj -MF CMakeFiles\foc.elf.dir\Ctrl\motor.cpp.obj.d -o CMakeFiles\foc.elf.dir\Ctrl\motor.cpp.obj -c F:\Desktop\ljyws\steer_node\software\foc\Ctrl\motor.cpp
 
 CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.i: cmake_force
@@ -322,7 +350,7 @@ CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.s: cmake_force
 CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/rgb.cpp
 CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj -MF CMakeFiles\foc.elf.dir\Ctrl\rgb.cpp.obj.d -o CMakeFiles\foc.elf.dir\Ctrl\rgb.cpp.obj -c F:\Desktop\ljyws\steer_node\software\foc\Ctrl\rgb.cpp
 
 CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.i: cmake_force
@@ -336,7 +364,7 @@ CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.s: cmake_force
 CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj: F:/Desktop/ljyws/steer_node/software/foc/Ctrl/utils.cpp
 CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj -MF CMakeFiles\foc.elf.dir\Ctrl\utils.cpp.obj.d -o CMakeFiles\foc.elf.dir\Ctrl\utils.cpp.obj -c F:\Desktop\ljyws\steer_node\software\foc\Ctrl\utils.cpp
 
 CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.i: cmake_force
@@ -350,7 +378,7 @@ CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.s: cmake_force
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i: cmake_force
@@ -364,7 +392,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s: cmake
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i: cmake_force
@@ -378,7 +406,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.s
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i: cmake_force
@@ -392,7 +420,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.s: c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i: cmake_force
@@ -406,7 +434,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.s
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i: cmake_force
@@ -420,7 +448,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.s: 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.s:
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i: cmake_force
@@ -448,7 +476,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramf
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i: cmake_force
@@ -476,7 +504,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s: 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i: cmake_force
@@ -490,7 +518,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.s: c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i: cmake_force
@@ -504,7 +532,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.s
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i: cmake_force
@@ -518,7 +546,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.s: c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i: cmake_force
@@ -532,7 +560,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.i: cmake_force
@@ -546,7 +574,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.s: c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi_ex.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi_ex.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi_ex.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.i: cmake_force
@@ -560,7 +588,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.s
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.i: cmake_force
@@ -574,7 +602,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.s: c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj -MF CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c.obj.d -o CMakeFiles\foc.elf.dir\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c
 
 CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.i: cmake_force
@@ -588,7 +616,7 @@ CMakeFiles/foc.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.s
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
@@ -602,7 +630,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cms
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -616,7 +644,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cma
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -630,7 +658,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s:
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -644,7 +672,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_f
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -658,7 +686,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -672,7 +700,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -686,7 +714,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -700,7 +728,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -714,7 +742,7 @@ CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/foc.elf.dir/flags.make
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: F:/Desktop/ljyws/steer_node/software/foc/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/foc.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	F:\Tools\gcc-arm-none-eabi-7-2018-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\foc.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -742,8 +770,10 @@ foc_elf_OBJECTS = \
 "CMakeFiles/foc.elf.dir/Core/Src/system_stm32g4xx.c.obj" \
 "CMakeFiles/foc.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/foc.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj" \
+"CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj" \
 "CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj" \
 "CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj" \
+"CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj" \
 "CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj" \
 "CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj" \
 "CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj" \
@@ -793,8 +823,10 @@ foc.elf: CMakeFiles/foc.elf.dir/Core/Src/sysmem.c.obj
 foc.elf: CMakeFiles/foc.elf.dir/Core/Src/system_stm32g4xx.c.obj
 foc.elf: CMakeFiles/foc.elf.dir/Core/Src/tim.c.obj
 foc.elf: CMakeFiles/foc.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj
+foc.elf: CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj
 foc.elf: CMakeFiles/foc.elf.dir/Ctrl/encoder.cpp.obj
 foc.elf: CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj
+foc.elf: CMakeFiles/foc.elf.dir/Ctrl/low_level.cpp.obj
 foc.elf: CMakeFiles/foc.elf.dir/Ctrl/motor.cpp.obj
 foc.elf: CMakeFiles/foc.elf.dir/Ctrl/rgb.cpp.obj
 foc.elf: CMakeFiles/foc.elf.dir/Ctrl/utils.cpp.obj
@@ -827,7 +859,7 @@ foc.elf: CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.
 foc.elf: CMakeFiles/foc.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 foc.elf: CMakeFiles/foc.elf.dir/build.make
 foc.elf: CMakeFiles/foc.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable foc.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Desktop\ljyws\steer_node\software\foc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable foc.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\foc.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/Desktop/ljyws/steer_node/software/foc/cmake-build-debug/foc.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/Desktop/ljyws/steer_node/software/foc/cmake-build-debug/foc.bin"

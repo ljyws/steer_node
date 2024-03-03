@@ -111,4 +111,7 @@ CMakeFiles/foc.elf.dir/Ctrl/foc.cpp.obj: \
  F:\Desktop\ljyws\steer_node\software\foc\Ctrl/encoder.h \
  f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\cstdint \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/spi.h \
+ F:\Desktop\ljyws\steer_node\software\foc\App/board.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl/controller.h \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl\low_level.h \
  F:\Desktop\ljyws\steer_node\software\foc\Ctrl\utils.h

@@ -2,6 +2,9 @@
 #define __MOTOR_H__
 
 #include "axis.h"
+#include "board.h"
+#include "low_level.h"
+
 
 struct alpha_beta_t{float alpha; float beta; };
 struct d_q_t{float d; float q; };
@@ -10,7 +13,7 @@ struct Iph_ABC_t{ float phA; float phB; float phC; };
 class Motor;
 class Axis;
 class FieldOrientedController;
-
+class PhaseControlLaw;
 class Motor
 {
 public:
@@ -77,6 +80,8 @@ public:
         ERROR_UNBALANCED_PHASES          = 0x800000000,
     };
     Error error = ERROR_NONE;
+
+    PhaseControlLaw *control_law_;
 };
 
 #endif

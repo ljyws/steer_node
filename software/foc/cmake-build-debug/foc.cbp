@@ -190,6 +190,12 @@
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Core/Startup/startup_stm32g431cbtx.s">
 			<Option target="foc.elf"/>
 		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.cpp">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/controller.h">
+			<Option target="foc.elf"/>
+		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/encoder.cpp">
 			<Option target="foc.elf"/>
 		</Unit>
@@ -200,6 +206,12 @@
 			<Option target="foc.elf"/>
 		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/foc.h">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.cpp">
+			<Option target="foc.elf"/>
+		</Unit>
+		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/low_level.h">
 			<Option target="foc.elf"/>
 		</Unit>
 		<Unit filename="F:/Desktop/ljyws/steer_node/software/foc/Ctrl/motor.cpp">

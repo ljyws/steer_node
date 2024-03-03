@@ -1,7 +1,8 @@
-CMakeFiles/foc.elf.dir/App/axis.cpp.obj: \
- F:\Desktop\ljyws\steer_node\software\foc\App\axis.cpp \
- F:\Desktop\ljyws\steer_node\software\foc\App\axis.h \
- F:\Desktop\ljyws\steer_node\software\foc\App\main_help.h \
+CMakeFiles/foc.elf.dir/Ctrl/controller.cpp.obj: \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl\controller.cpp \
+ F:\Desktop\ljyws\steer_node\software\foc\Ctrl\controller.h \
+ F:\Desktop\ljyws\steer_node\software\foc\App/axis.h \
+ F:\Desktop\ljyws\steer_node\software\foc\App/main_help.h \
  F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os.h \
  F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
  f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\lib\gcc\arm-none-eabi\7.3.1\include\stddef.h \
@@ -31,7 +32,6 @@ CMakeFiles/foc.elf.dir/App/axis.cpp.obj: \
  F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
  F:\Desktop\ljyws\steer_node\software\foc\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os2.h \
  F:\Desktop\ljyws\steer_node\software\foc\Ctrl/rgb.h \
- F:\Desktop\ljyws\steer_node\software\foc\App/axis.h \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/tim.h \
  F:\Desktop\ljyws\steer_node\software\foc\Core\Inc/main.h \
  F:\Desktop\ljyws\steer_node\software\foc\Drivers\STM32G4xx_HAL_Driver\Inc/stm32g4xx_hal.h \
@@ -108,6 +108,4 @@ CMakeFiles/foc.elf.dir/App/axis.cpp.obj: \
  f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\modified_bessel_func.tcc \
  f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\poly_hermite.tcc \
  f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\poly_laguerre.tcc \
- f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\riemann_zeta.tcc \
- F:\Desktop\ljyws\steer_node\software\foc\App\board.h \
- F:\Desktop\ljyws\steer_node\software\foc\Ctrl/controller.h
+ f:\tools\gcc-arm-none-eabi-7-2018-q2-update-win32\arm-none-eabi\include\c++\7.3.1\tr1\riemann_zeta.tcc
